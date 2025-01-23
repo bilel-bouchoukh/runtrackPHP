@@ -1,0 +1,8 @@
+INSERT INTO `étudiants` (`id`, `prenom`, `nom`, `naissance`, `sexe`, `email`) VALUES (NULL, 'Cyril', 'Zimmerman', '1989-01-02', 'Homme', 'cyril@laplateforme.io'), (NULL, 'Jessica', 'Soriano', '1995-09-08', 'Femme', 'jessica@laplateforme.io'), (NULL, 'Roxan', 'Roumégas', '2016-09-08', 'Homme', 'roxan@laplateforme.io'), (NULL, 'Pascal', 'Assens', '1999-12-31', 'Homme', 'Pascal@laplateforme.io'), (NULL, 'terry', 'Cristinelli', '2005-02-01', 'Homme', 'terry@laplatefrome.io'), (NULL, 'Ruben', 'Habib', '1993-05-26', 'Homme', 'ruben@laplateforme.io'), (NULL, 'Toto', 'Dupont', '2019-11-07', 'Homme', 'toto@laplateforme.io')
+
+
+
+INSERT INTO 'etages' ('id', 'nom', 'numero', 'superficie') VALUES (NULL,'RDC', '0', '500'), (NULL, 'R+1', '1', '500')
+
+
+INSERT INTO `salles` (`id`, `nom`, `id_etages`, `capacite`) VALUES (NULL, 'lounge', '1', '100'), (NULL, 'studio son', '1', '5'), (NULL, 'Broadcasting', '2', '50'), (NULL, 'Bocal Peda', '2', '4'), (NULL, 'Coworking', '2', '80'), (NULL, 'Studio Video', '2', '5')
