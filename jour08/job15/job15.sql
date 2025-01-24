@@ -1,4 +1,4 @@
-SELECT salles.nom, etage.nom 
-FROM etages 
+SELECT salles.nom as nom_salle, etage.nom as nom_étage
+FROM etage 
 INNER JOIN salles
-WHERE etages.id = salles.etages.id
+ON etage.id = salles.id_etages
